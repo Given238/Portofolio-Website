@@ -1,0 +1,149 @@
+            .page-top {
+                
+                margin-top:80px;
+                }
+            
+
+            .hero {
+                margin-top:10px;
+                
+            }
+
+            .page-middle {display:grid;
+                          grid-template-columns:1fr 1fr;
+                          background-color:#D9D9D9;
+                          min-height:420px;
+                          margin-top:20px;
+                          
+            }
+
+            .about-me, .service {
+                flex: 1 1 300px;
+                padding: 20px;
+
+            }
+
+            .about-me {border-right: 2px solid black;
+                       display:flex;
+                       justify-content:space-between;
+                       align-items:center;
+                       }
+            
+            .profile-icon {width:350px;
+                           height:350px;
+                           object-fit:cover;
+                           border-radius:50%;}
+
+            .about-me p {font-family:Jomolhari;
+                         font-size:24px;
+                         line-height:30px;
+                         width:424px;
+                         margin-top:23px;
+                         color:#3A3A3A;
+                         opacity:70%;}
+
+            .read-more button {font-family:Aboreto;
+                               padding:15px 20px;
+                               font-size:15px;
+                               border-radius:10px;
+                               border:none;
+                               margin-top:10px;
+                               margin-left:15px;
+                               cursor:pointer;}
+
+            .service-title {display:flex;
+                            justify-content:center;
+                            margin-top:-15px;
+                            }
+            
+            .service-list{display:flex;
+                          align-items:center;
+                          gap:85px;
+                          justify-content:center;}
+            
+            .service-card {background-color:white;
+                           display:flex;
+                           flex-direction:column;
+                           align-items:center;
+                           padding:75px 55px;
+                           
+                           border-radius:20px;
+                           margin-top:20px;
+                           justify-content:flex-start;}
+            
+           .service-card img {
+                    width: 80px;
+                    height: 80px;
+                    object-fit: contain;
+                    margin-top:-60px;
+                    
+                    
+                    
+                }
+            .service-card p{font-family:Jomolhari;
+                            font-size:24px;}
+
+            .service-card-text {display:flex;
+                                flex-direction:column;
+                                align-items:center;}
+
+
+
+            .page-middle h2 {font-size:48px;
+                             font-family:Jomolhari;
+                             border-bottom: 2px solid black;
+                             display:inline-block;
+                             
+            }
+            
+            .page-bottom {display:flex;
+                          margin-top:10px;
+                          text-align:center;}
+            
+            
+
+            
+
+            .hero {margin-top:247px;
+                   margin-left:121px;
+                   }
+
+            .hero h1, .highlighted-text {font-size:64px;
+                                         font-family:Jomolhari;
+                                         line-height:75px;
+                      }
+            .hero p, span {font-family:Jomolhari;
+                     font-size:32px;
+                     }
+
+            .social-button {display:flex;
+                            gap:35px;
+                            margin-left:70px;}
+            .hero a {
+                display:flex;
+                background-color:black;
+                width:50px;
+                height:50px;
+                border-radius:50%;
+                align-items:center;
+                justify-content:center;
+            }
+
+            .hero img {height:34px;
+                       width:34px;}
+
+            .tiktok-link {height:50px;
+                          width:50px;}
+            
+            .clean {color:#89AECC;}
+
+            .fast {color:#FF9D9D;}
+
+            .friendly {color:#76BF68;}
+
+            .hero p {margin-left:49px;
+            }
+            
+
+
+            .highlighted-text {color:#434343;}
